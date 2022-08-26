@@ -3,7 +3,7 @@ const { FormatJSTransformer } = require("@formatjs/swc-plugin");
 const path = require("path");
 const fs = require("fs");
 
-const filePath = path.resolve(__dirname, "src/index.tsx");
+const filePath = path.resolve(__dirname, "src/index.ts");
 const input = fs.readFileSync(filePath, { encoding: "utf-8" });
 
 transform(input, {
