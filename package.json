@@ -2,9 +2,9 @@
   "name": "formatjs-swc-repro",
   "packageManager": "yarn@3.2.3",
   "dependencies": {
-    "@formatjs/swc-plugin": "^1.4.9",
-    "@swc/core": "1.2.241",
-    "typescript": "^4.8.2"
+    "@formatjs/swc-plugin": "^1.4.12",
+    "@swc/core": "1.3.6",
+    "typescript": "^4.8.4"
   },
   "scripts": {
     "build": "node transform.cjs"
